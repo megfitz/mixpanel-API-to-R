@@ -1,7 +1,5 @@
-mixpanel-API-to-R
-=================
-
 Mixpanel.r
+=================
 Import Mixpanel data directly into R or RStudio with the mixpanel.r script
 
 You need to have an API Key and API Secret from Mixpanel. This function takes the following arguments:<br>
@@ -15,6 +13,7 @@ You need to have an API Key and API Secret from Mixpanel. This function takes th
 The function exports a data set to your global R environment with a list for the data legend, series and values.
 
 Mixpanel_cleanup.r
+=================
 This script will clean up the imported API data and takes the following arguments:<br>
   datasetname = defaults to "dataset", the list created in the Mixpanel.r script<br>
   event = needs to be the same event that you called for in the API call<br>
