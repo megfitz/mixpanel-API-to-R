@@ -11,7 +11,7 @@ You need to have an API Key and API Secret from Mixpanel. This function takes th
   interval = numeric; the number of units you want<br>
   type = accepts unique/general/average<br>
 
-The function exports a data set to your global R environment with a list for the data ledgend, series and values.
+The function exports a data set to your global R environment with a list for the data legend, series and values.
 
 With feedback and questions, please contact<br>
 Meaghan Fitzgerald<br>
