@@ -5,6 +5,7 @@ mixpanel_cleanup <- function (datasetname = "dataset", event = "Register") {
   
   ## Take the column names, remove the leading 'x' and add as a row for the date of the observation
   xnames <- colnames(frame)
+  names = NULL
   for (i in 1:length(xnames)) {
     names[i] <- substring(xnames[i],2)
   }
